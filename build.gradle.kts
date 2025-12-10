@@ -1,9 +1,14 @@
 plugins {
     id("java")
+    id("application")
 }
 
 group = "dev.sdey"
 version = "1.0-SNAPSHOT"
+
+application {
+    mainClass = "dev.sdey.rtmm.Main"
+}
 
 repositories {
     mavenCentral()
